@@ -1,9 +1,23 @@
 {
+  "author": {
+    "name": "Miles Oldenburg",
+    "email": "milesoldenburg@gmail.com"
+  },
+  "description": "Right click on Tumblr images to automatically download the highest res version.",
+  "id": "firefox-tumblr-max@milesoldenburg.com",
+  "license": "MPL-2.0",
+  "main": "lib/main",
   "name": "firefox-tumblr-max",
-  "title": "firefox-tumblr-max",
-  "id": "jid1-IO5M9FB54s5WxQ",
-  "description": "A Firefox extension that provides a context menu on Tumblr images with the option to find the highest res version.",
-  "author": "Miles Oldenburg",
-  "license": "MPL 2.0",
-  "version": "0.1"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesoldenburg/firefox-tumblr-max.git"
+  },
+  "scripts": {
+    "package": "jpm xpi"
+  },
+  "title": "Firefox Tumblr Max Image Downloader",
+  "version": "0.1.1",
+  "devDependencies": {
+    "jpm": "^1.0.0"
+  }
 }

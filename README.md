@@ -5,7 +5,7 @@ A Firefox extension that provides a context menu on Tumblr images with the optio
 
 ## Installation
 
-To install the latest version, download [firefox-tumblr-max.xpi](https://github.com/milesoldenburg/firefox-tumblr-max/blob/master/firefox-tumblr-max.xpi?raw=true) and open with Firefox.
+To install the latest version, download [firefox-tumblr-max@milesoldenburg.com-0.1.1.xpi](firefox-tumblr-max@milesoldenburg.com-0.1.1.xpi) and open with Firefox.
 
 ## Usage
 
@@ -20,23 +20,19 @@ Right click on any Tumblr image. If there is a max res version available the fol
 		
 ## Development
 ### Dependencies
-cfx  
-[https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/cfx](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/cfx)
+1. [node.js](https://nodejs.org/)
 
-### Testing
-```
-cfx run
-```
-
+### Prerequisites
+	sudo npm install
+	
 ### Packaging
-```
-cfx package
-```
+	npm run package
 		
 ## Release History
 | Version | Release Date | Release Notes |
 | ------- | ------------ | ------------- |
-| 0.1.0   | 12-19-2014   | Initial Version |
+| 0.1.1 | 05-30-2015 | Upgraded from CFX to JPM |
+| 0.1.0 | 12-19-2014 | Initial Version |
 
 ## Author
 Miles Oldenburg  
