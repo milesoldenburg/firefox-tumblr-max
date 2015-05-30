@@ -13,7 +13,8 @@
     "url": "git@github.com:milesoldenburg/firefox-tumblr-max.git"
   },
   "scripts": {
-    "package": "jpm xpi"
+    "package": "jpm xpi",
+    "release": "scp firefox-tumblr-max@milesoldenburg.com-0.1.1.xpi milesoldenburg@milesoldenburg.com:api.milesoldenburg.com/firefox-tumblr-max"
   },
   "title": "Firefox Tumblr Max Image Downloader",
   "version": "0.1.1",
