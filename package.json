@@ -14,10 +14,10 @@
   },
   "scripts": {
     "package": "jpm xpi",
-    "release": "scp firefox-tumblr-max@milesoldenburg.com-0.1.1.xpi milesoldenburg@milesoldenburg.com:api.milesoldenburg.com/firefox-tumblr-max"
+    "release": "scp firefox-tumblr-max@milesoldenburg.com-0.2.0.xpi milesoldenburg@milesoldenburg.com:api.milesoldenburg.com/firefox-tumblr-max"
   },
   "title": "Firefox Tumblr Max Image Downloader",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "devDependencies": {
     "jpm": "^1.0.0"
   }
