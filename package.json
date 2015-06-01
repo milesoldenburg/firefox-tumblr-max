@@ -3,7 +3,7 @@
     "name": "Miles Oldenburg",
     "email": "milesoldenburg@gmail.com"
   },
-  "description": "Right click on Tumblr images to automatically download the highest res version.",
+  "description": "Right click on Tumblr/Houzz/ArchDaily images to automatically download the highest res version.",
   "id": "firefox-tumblr-max@milesoldenburg.com",
   "license": "MPL-2.0",
   "main": "lib/main",
@@ -12,12 +12,13 @@
     "type": "git",
     "url": "git@github.com:milesoldenburg/firefox-tumblr-max.git"
   },
+  "private": true,
   "scripts": {
     "package": "jpm xpi",
-    "release": "scp firefox-tumblr-max@milesoldenburg.com-0.2.0.xpi milesoldenburg@milesoldenburg.com:api.milesoldenburg.com/firefox-tumblr-max"
+    "release": "scp firefox-tumblr-max@milesoldenburg.com-0.2.1.xpi milesoldenburg@milesoldenburg.com:api.milesoldenburg.com/firefox-tumblr-max"
   },
-  "title": "Firefox Tumblr Max Image Downloader",
-  "version": "0.2.0",
+  "title": "Max Image Size Downloader",
+  "version": "0.2.1",
   "devDependencies": {
     "jpm": "^1.0.0"
   }
